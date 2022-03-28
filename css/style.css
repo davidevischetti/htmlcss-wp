@@ -21,7 +21,7 @@ header {
     height: 50%;
     margin-left: 10%;
     padding-right: 20px;
-    border-right: 1px solid #ccc;
+    border-right: 1px solid #aaa;
 }
 
 /* Stile barra di navigazione */
@@ -41,7 +41,7 @@ nav ul li a {
     margin-right: 10px;
     font-size: 15px;
     font-weight: 600;
-    color: #ccc;
+    color: #aaa;
 }
 
 /* Stile hero */
@@ -58,7 +58,6 @@ nav ul li a {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 10px;
     opacity: 0.7;
 }
 
@@ -82,21 +81,16 @@ nav ul li a {
 }
 
 /* Stile titolo */
+
 .title {
-    width: 100%;
+    height: 80px;
 }
 
 .title span {
-    color: #ccc;
+    color: #aaa;
 }
 
 /* Stile sezione float */
-.container {
-    /* debug */
-    width: 100%;
-    background-color: #00f;
-}
-
 .clearfix::after {
     content: "";
     display: table;
@@ -106,18 +100,33 @@ nav ul li a {
 .side-part {
     float: left;
     width: 20%;
-    /* debug */
-    height: 250px;
-    background-color: #0ff;
 }
 
 .center-part {
     float: left;
     width: calc(60% - 40px);
     margin: 0 20px;
-    /* debug */
-    height: 250px;
-    background-color: #0ff;
+}
+
+/* Stile testi sezione float */
+.clearfix p {
+    margin-top: 10px;
+    color: #aaa;
+}
+
+/* Stile img sezione float */
+.back-img {
+    background-color: #555;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.back-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    opacity: 0.7;
 }
 
 /* Stile footer */
