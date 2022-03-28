@@ -1,0 +1,83 @@
+/* Regole base css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Stile header */
+header {
+    width: 100%;
+    /* debug */
+    height: 60px;
+    background-color: #f0f;
+}
+
+/* Stile presentazione */
+.hero {
+    width: 80%;
+    margin: 20px auto;
+    /* debug */
+    height: 250px;
+    background-color: #ff0;
+
+}
+
+/* stile contenuto */
+.content {
+    width: 80%;
+    margin: 0 auto;
+    /* degub */
+    background-color: #0ff;
+}
+
+.title {
+    width: 100%;
+    margin-bottom: 20px;
+    /* debug */
+    height: 50px;
+}
+
+/* Stile sezione float */
+.container {
+    /* debug */
+    width: 100%;
+    background-color: #00f;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.side-part {
+    float: left;
+    width: 20%;
+    /* debug */
+    height: 250px;
+    background-color: #0ff;
+}
+
+.center-part {
+    float: left;
+    width: calc(60% - 40px);
+    margin: 0 20px;
+    /* debug */
+    height: 250px;
+    background-color: #0ff;
+}
+
+/* Stile footer */
+footer {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    /* debug */
+    background-color: #609;
+
+}
